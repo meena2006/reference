@@ -1,0 +1,104 @@
+IE :
+----
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { 
+
+/* IE10+ CSS styles go here */ 
+
+}
+
+Firebox :
+--------
+
+@-moz-document url-prefix() {
+    h1 {
+        color: red;
+    }
+}
+
+Safari :
+-------
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {   
+   ::i-block-chrome,.cus16 img {
+min-height: 10px;
+max-width: 16px;
+} 
+}
+
+for mac safari :
+
+_::-webkit-full-page-media, _:future, :root .pro1 {
+
+  max-width: 100% !important;
+ min-height:90px !important;
+ max-height:140px !important;
+ margin: 0 auto;
+
+}
+
+chrome :
+-------
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #diez  { color: red  }
+}
+
+
+Edge :
+-------
+
+@supports (-ms-ime-align:auto) {
+  .faq-rightsect .panel-heading a.collapsed:after, .faq-rightsect .panel-heading a:after {
+    margin-top: -31px;
+}
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { .navbar .navbar-nav {
+margin-top:-32px;
+padding-left:44px;
+
+}
+
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {   
+   ::i-block-chrome,.cuswid {
+width:90%;
+} 
+}
+
+
+
+
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+
+
+
+
+https://www.fontyukle.net/en/1,futura
+
+
+

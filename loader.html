@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<style type="text/css">
+body {
+	background:#09F;
+}
+
+.spinner {
+   height:50px;
+   width:50px;
+   margin:0px auto;
+   position:relative;
+   -webkit-animation: rotation .6s infinite linear;
+   -moz-animation: rotation .6s infinite linear;
+   -o-animation: rotation .6s infinite linear;
+   animation: rotation .6s infinite linear;
+   border-left:5px solid rgba(255,255,255,.15);
+   border-right:5px solid rgba(255,255,255,.15);
+   border-bottom:5px solid rgba(255,255,255,.15);
+   border-top:5px solid #fff;
+   border-radius:100%;
+}
+.lt-ie9 .spinner {
+   border-left: 5px solid rgb(200,200,200);
+   border-right: 5px solid rgb(200,200,200);
+   border-bottom: 5px solid rgb(200,200,200);
+}
+@-webkit-keyframes rotation {
+   from {-webkit-transform: rotate(0deg);}
+   to {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+   from {-moz-transform: rotate(0deg);}
+   to {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+   from {-o-transform: rotate(0deg);}
+   to {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(359deg);}
+}
+
+.load-spinner {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.load-spinner .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 600ms linear infinite;
+          animation: nprogress-spinner 600ms linear infinite;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+</style>
+
+<div style="height:800px;width:100%;">
+<div id="app-loader" >
+			<div>
+				<img src="http://smartphones-aoc.release.kacdn.net/assets/front/img/app/aoc_logo.png" alt="AOC"><br><br>
+				<div class="spinner"></div>
+			</div>
+		</div>
+        </div>
+
+</body>
+</html>

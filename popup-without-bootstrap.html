@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Auctionsoftware</title>
+</head>
+<style type="text/css">
+    .nwmodal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.nwmodal-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nwmodal-popup {
+    margin: 70px auto;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.nwmodal-popup h2 {
+    margin-top: 5px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.nwmodal-popup .nwmodal-close {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nwmodal-popup .nwmodal-content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.nwmodal-footer {
+    padding-bottom: 10px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nwmodal-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 80px;
+    border: 1px solid #999;
+    background: #fff;
+    box-shadow: 0 1px 11px #ddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+    .nwmodal-btn:hover { background: #666;  color: #fff;  transition:all 300ms linear; }
+</style>
+
+<body>
+    
+    <a class="button" href="#popup1">Pop up</a>
+    <div id="popup1" class="nwmodal-overlay">
+        <div class="nwmodal-popup">
+            <h2>Heading</h2> <a class="nwmodal-close" href="#">&times;</a>
+            <div class="nwmodal-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+            <div class="nwmodal-footer">
+                <button class="btn nwmodal-btn">Ok</button>
+                <button class="btn nwmodal-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
