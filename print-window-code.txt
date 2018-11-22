@@ -2,36 +2,19 @@ function print_new1(){
   window.frames["printf"].focus();
   window.frames["printf"].print();
 }
-
 function print_new()
-
     {
-
-        var content = "<html><head>";
-		
-		content += document.getElementById("csscheck").innerHTML;
-		
+        var content = "<html><head>";		
+		content += document.getElementById("csscheck").innerHTML;		
 		content +="</head><body>";
-
         content += document.getElementById("print_section").innerHTML;
-
         content += "</body>";
-
-        content += "</html>";
-		
+        content += "</html>";		
 		//alert(content);
-
-
         var printWin = window.open();
-
         printWin.document.write(content);
-
         printWin.document.close();
-
         printWin.focus();
-
         printWin.print();
-
         printWin.close();
-
     }

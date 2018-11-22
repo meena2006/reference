@@ -1,0 +1,662 @@
+meenapc
+Design123
+
+.modal.for-gnts {
+  background-image: url(/assets/new_sign_up_bg_3.jpeg);
+  background-size: cover;
+
+}
+.modal.for-lds {
+  background-image: url(/assets/new_sign_up_bg.jpeg);
+  background-size: cover;
+
+}
+
+  windowClass: self.state_name == 'gentle_men' || self.state_name == 'why_for_gents' ? 'NewLoginModal New-Signup  for-gnts' : 'NewLoginModal for-lds',
+      
+     background: url(https://auctionsoftwaremarketplace.com:2035/im/images/new_sign_up_bg.png) center center / cover;
+
+https://www.dealsovertime.com/index.php/dbode2
+admind
+auction#2112
+
+ledkz54417
+
+New :
+==========
+
+Refresh : 
+
+Git:       https://git.assembla.com/reefbids.forwardauction2018.git
+ Ftp:       https://app.assembla.com/spaces/reefbids/ftp_tool/forward2018
+ Test url:  refresh.auctionsoftware.com
+
+Developscripts :
+
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/Developscripts
+https://subversion.assembla.com/svn/tigertradesourcing.developscripts/
+
+Liftbids :
+
+http://liftbids.moblearn.net
+restart link: /system/deployment/server_restart
+precompile link: /system/deployment/assets_precompile
+Git: https://git.assembla.com/tigertradesourcing.Liftbids.git
+Ftp: https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/liftbids_test
+
+
+Idealfloor
+
+https://git.assembla.com/tigertradesourcing.idealfloor.git   
+   Username : arun_auction
+Password: arun@auction123
+
+pipemarket :
+
+Test url:
+http://auctionsoftwaremarketplace.com:8889/
+
+Ftp:
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/pipemarket_design
+
+Git:
+https://git.assembla.com/tee-exchange.pipemarket_design.git
+
+Restart script:
+http://cgitest.auctionsoftwaremarketplace.com/pipenew.cgi
+
+Raffle :
+
+https://git.assembla.com/tigertradesourcing.raffle.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/raffle_test
+raffle.moblearn.net
+
+bestlegal :
+
+Git: https://git.assembla.com/tigertradesourcing.BestLegalChoice.git
+
+Ftp: https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/BestLegalChoice
+
+Test url: http://bestlegal.moblearn.net/
+
+Coding.com
+
+http://nodejs.moblearn.net/
+https://git.assembla.com/tee-exchange.nodejsdeveloper.git 
+https://www.assembla.com/spaces/tee-exchange/ftp_tool/nodejsdeveloper_stag
+Restart - nodejs.moblearn.net/system/deployment/server_restart
+PreCompile - nodejs.moblearn.net/system/deployment/assets_precompile
+branch staging 
+
+Simhawk :
+
+Test Site URL :  http://staging.avmkt.com/
+git: https://git.assembla.com/tee-exchange.simhawk.git
+ftp: https://app.assembla.com/spaces/tee-exchange/ftp_tool/simhawk_test 
+Precompile:  http://staging.avmkt.com/system/deployment/assets_precompile
+Restart:     http://staging.avmkt.com/system/deployment/server_restart
+http://nodejs_t.moblearn.net/
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/outsource_casecamp
+
+150891
+
+Cloud :
+
+https://git.assembla.com/dagan.saasnew.git   
+ Ftp:
+https://app.assembla.com/spaces/dagan/ftp_tool/SaaSnew
+ Test url:
+https://auctionsoftwaremarketplace.com:2004/
+
+Ingram :
+
+https://app.assembla.com/spaces/dagan/ftp_tool/Ingram_Test
+https://git.assembla.com/dagan.Ingram_Reg.git
+https://auctionsoftwaremarketplace.com:2035
+http://cgitest.auctionsoftwaremarketplace.com/ingram.cgi
+
+Scitech :
+
+https://git.assembla.com/tigertradesourcing.scitech_php.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/scitech_php_test
+http://scitech.moblearn.net
+
+
+Glass.net :
+
+FTP
+https://app.assembla.com/spaces/reefbids/ftp_tool/ror_testapp
+
+Git
+git@git.assembla.com:reefbids.ror_testzerostack.git
+
+http://glass.moblearn.net/system/deployment/server_restart
+http://glass.moblearn.net/system/deployment/assets_precompile
+
+Drone4hire :
+
+https://git.assembla.com/moreme.drones4hire.git
+http://drones4hire.moblearn.net/
+https://app.assembla.com/spaces/moreme/ftp_tool/Drones4hire_staging
+http://drones4hire.moblearn.net/precompile
+http://drones4hire.moblearn.net/server_restart
+
+Gaming Auction :
+
+Git: https://git.assembla.com/reefbids.gamingauctions.git
+Ftp: https://app.assembla.com/spaces/reefbids/ftp_tool/gamingauctions
+test url: http://auctionsoftwaremarketplace.com:7080/
+
+Chivalry :
+
+https://git.assembla.com/tee-exchange.Chivalry.git
+
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/chivalry_test
+
+http://chivalry.moblearn.net/
+
+http://chivalry.moblearn.net/precompile
+
+http://chivalry.moblearn.net/server_restart
+
+Securityshift
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/shifttracking_test
+https://securityshifts.moblearn.net/system/deployment/server_restart
+https://securityshifts.moblearn.net/system/deployment/assets_precompile
+
+Woowash :
+
+https://git.assembla.com/reefbids.woowash.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/woowash_test
+woowash.moblearn.net
+
+Usetpa :
+
+https://git.assembla.com/reefbids.usetpa_ror.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/usetpa_ror
+http://usetpa.moblearn.net/
+
+usetpa_test
+vzOfMfXs5CM
+
+http://usetpa.moblearn.net/system/deployment/assets_precompile
+http://usetpa.moblearn.net/system/deployment/server_restart
+
+Bidhyre :
+
+https://git.assembla.com/reefbids.ReverseBidhyre.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/bidhyretest
+bidhyre.moblearn.net
+
+Flowlister :
+
+https://git.assembla.com/moreme.flowlister_new.git
+https://app.assembla.com/spaces/moreme/ftp_tool/flowlister_new
+http://auctionsoftwaremarketplace.com:7003
+
+Ipigeon :
+
+git clone -c core.longpaths=true https://git.assembla.com/tigertradesourcing.Ipigeon.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/Ipigeon_dev
+ipigeon.auctionsoftware.com
+
+Jamilywarehouse :
+
+git@git.assembla.com:dagan.jamilywarehouse.git
+https://app.assembla.com/spaces/dagan/ftp_tool/JamilyWarehouse
+jamilywarehouse.com
+
+Dominus chis :
+
+https://git.assembla.com/reefbids.chris_penny.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/chris_penny
+http://cgitest.auctionsoftwaremarketplace.com/chrispenny.cgi
+http://auctionsoftwaremarketplace.com:9090
+
+Slibuy :
+
+https://git.assembla.com/dagan.slibuylive.git
+https://www.assembla.com/spaces/dagan/ftp_tool/Slibuy-Test
+slibuy.net
+
+Foward Cleanup :
+
+https://git.assembla.com/dagan.FAcodecleanup.git
+https://app.assembla.com/spaces/dagan/ftp_tool/FA-CodeCleanup
+http://auctionsoftwaremarketplace.com:3030/images/FA.log
+http://cgitest.auctionsoftwaremarketplace.com/forwardcleanup.cgi 
+http://auctionsoftwaremarketplace.com:3030
+
+Online course :
+
+http://52.35.60.223/ds_onlinecourse/wp-admin/
+user: ds_onlinecourse
+pass: onlinecou@auction
+
+
+Carbids :
+
+https://git.assembla.com/dagan.Carbids.git   
+https://app.assembla.com/spaces/dagan/ftp_tool/carbids_test
+http://auctionsoftwaremarketplace.com:1088/
+
+
+Bestequipped :
+
+SSH - beste@bestequipped.moblearn.net
+Password - equip123
+
+Molytronix : 
+
+https://git.assembla.com/reefbids.Molytronix_test.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/Molytronix_test   11:29 AM
+http://auctionsoftwaremarketplace.com:3022/
+
+Growwestack :
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/Growerstock_test
+https://git.assembla.com/reefbids.Growerstock_test.git
+http://growerstock.moblearn.net/homes/restart_server
+http://growerstock.moblearn.net/homes/precompile
+ssh: grower_user@54.149.197.37
+password: Cs+EtGSeA]1Jx
+path: /var/www/growerstock
+
+
+Theme :
+
+
+https://themes.shopify.com/?industry=Jewelry+%26+Accessories
+
+http://stackowner.com/wp-admin/
+user: raj@stackowner
+pass: I33ij4vMN8Z#P1IMaElrSW&z
+
+Bargainwiz :
+
+Git: https://git.assembla.com/reefbids.bargainwizz.git
+Ftp: https://app.assembla.com/spaces/reefbids/ftp_tool/bargainwizz_test
+Test URL: bargainwizz.auctionsoftwaremarketplace.com
+
+Projectsoftware :
+
+http://projectsoftware.com
+user name: rehyan@auction
+password: V*SUd1xF##cFF*WgZ11t9eNW
+
+FTP :
+
+http://auctionsoftwaremarketplace.com/design/
+Folder: design
+HOST : auctionsoftwaremarketplace.com
+Username: design@auctionsoftwaremarketplace.com
+password: design!@#
+
+
+Forward Auction 
+https://auctionsoftwaremarketplace.com:2002/
+Reverse Auction 
+http://reverse.auctionsoftware.com/
+Penny Auction 
+http://auctionsoftwaremarketplace.com:8080/
+Silent Auction 
+http://www.auctionsoftware.com/silentauction
+Casecamp
+crm.moblearn.net
+
+ROR - DIY :
+
+https://git.assembla.com/reefbids.Ror_DIY.git
+git checkout -b diy
+use diy branch after clone
+https://app.assembla.com/spaces/reefbids/ftp_tool/ROR_DIY
+
+Carmanpro :
+
+URL: http://227626776.org
+password: 3351
+https://subversion.assembla.com/svn/dagan.carmanpro/
+
+Iquippo :
+
+https://git.assembla.com/reefbids.iquippo.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/iquippo_test
+http://auctionsoftwaremarketplace.com:3007/images/iquippo.log
+http://cgitest.auctionsoftwaremarketplace.com/iquippo.cgi
+http://auctionsoftwaremarketplace.com:3007/
+
+Unisys :
+
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/slibuy_copy  
+https://git.assembla.com/reefbids.slibuy_API.git
+http://auctionsoftwaremarketplace.com:8050/
+http://cgitest.auctionsoftwaremarketplace.com/slibuy.cgi 
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/idealcomponents_test  
+
+ROR deevloper site :
+
+http://rubyonrailsdeveloper.com/
+FTP: https://app.assembla.com/spaces/reefbids/ftp_tool/ror_developers
+GIT: https://git.assembla.com/reefbids.rordeveloper.git
+http://rubyonrailsdeveloper.com/system/deployment/assets_precompile
+http://rubyonrailsdeveloper.com/system/deployment/server_restart   
+
+programmadict
+
+
+https://git.assembla.com/dagan.programmnew.git
+branch => staging
+
+https://app.assembla.com/spaces/dagan/ftp_tool/programmadd_test
+
+Maxbrosef :
+
+Git:
+https://git.assembla.com/tee-exchange.maxhealthcare_test.git
+
+Ftp:
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/maxhealth_test
+
+Test url:
+http://maxhealthcare.moblearn.net/ 
+
+http://maxhealthcare.moblearn.net/system/deployment/assets_precompile
+http://maxhealthcare.moblearn.net/system/deployment/server_restart  
+
+
+Buyrite dental :
+
+Git:
+https://git.assembla.com/dagan.Buyritedental.git
+
+Ftp:
+https://app.assembla.com/spaces/dagan/ftp_tool/Buyritedental
+
+Test url:
+http://buyritedental.moblearn.net
+http://buyritedental.moblearn.net/others/restart_server 
+
+Blueon :
+
+https://git.assembla.com/reefbids.blueon_test.git
+blueon.moblearn.net
+https://app.assembla.com/spaces/reefbids/ftp_tool/blueon_test
+To precompile 
+--------------
+http://blueon.moblearn.net/system/deployment/assets_precompile
+
+To restart
+--------------
+http://blueon.moblearn.net/system/deployment/server_restart
+username : serverteam
+password : serverpassword
+
+Gidatang :
+
+Git:
+https://git.assembla.com/tigertradesourcing.Gidatang_test.git
+
+Fpt:
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/gidatang_test
+
+Test url:
+auctionsoftwaremarketplace.com:1300 
+
+
+Slibuy New :
+
+https://app.assembla.com/spaces/dagan/ftp_tool/Slibuy-Test
+git@git.assembla.com:dagan.slibuylive.git
+
+
+Herbee :
+
+herbee.moblearn.net
+
+https://git.assembla.com/tigertradesourcing.HerbiesPro_test.git
+
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/Herbiespro_test
+
+Warrendubose :
+
+Git:
+https://git.assembla.com/reefbids.warrendubose.git
+
+Ftp:
+https://app.assembla.com/spaces/reefbids/ftp_tool/warrendubose_test
+
+url:
+http://auctionsoftwaremarketplace.com:2020/
+
+
+http://cgitest.auctionsoftwaremarketplace.com/warrendubose.cgi
+
+
+Logistic :
+
+Git:
+https://git.assembla.com/reefbids.logistics.git
+
+Ftp:
+https://app.assembla.com/spaces/reefbids/ftp_tool/logistics_test
+
+Test url:
+logistics.moblearn.net
+
+
+Ipigeon :
+
+git clone -c core.longpaths=true https://git.assembla.com/tigertradesourcing.Ipigeon.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/Ipigeon_dev   
+https://ipigeon.auctionsoftware.com/
+
+Iquippo :
+
+Git:
+
+https://git.assembla.com/reefbids.iquippo.git
+
+Ftp:
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/iquippo_test
+
+Test url:
+
+http://auctionsoftwaremarketplace.com:3007/
+
+Log and restart Script:
+
+http://auctionsoftwaremarketplace.com:3007/images/iquippo.log
+
+http://cgitest.auctionsoftwaremarketplace.com/iquippo.cgi
+
+Safeearth:
+
+http://auctionsoftwaremarketplace.com:3018/
+https://git.assembla.com/tigertradesourcing.safearth.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/safearth_test
+
+Logistic :
+
+https://logistics.moblearn.net
+https://git.assembla.com/reefbids.logistics.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/logistics_test
+
+For restart -> http://logistics.moblearn.net/system/deployment/server_restart
+For precombile -> http://logistics.moblearn.net/system/deployment/assets_precompile
+
+Gidatang:
+
+https://auctionsoftwaremarketplace.com:1300 
+https://git.assembla.com/tigertradesourcing.Gidatang_test.git
+https://app.assembla.com/spaces/tigertradesourcing/ftp_tool/gidatang_test
+
+Fanatec :
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/fanatec_test
+
+https://fanatec.moblearn.net
+
+https://git.assembla.com/reefbids.fanatec.git
+
+Meetangle
+
+http://meetangel.com
+https://git.assembla.com/dagan.training.git
+https://app.assembla.com/spaces/dagan/ftp_tool/meetangel
+
+Bitcoin
+
+http://auctionsoftwaremarketplace.com:8050/
+https://app.assembla.com/spaces/reefbids/ftp_tool/idealcomponents_test 
+https://git.assembla.com/reefbids.slibuy_API.git
+
+
+Warren :
+
+http://auctionsoftwaremarketplace.com:2020/
+https://git.assembla.com/reefbids.warrendubose.git
+https://app.assembla.com/spaces/reefbids/ftp_tool/warrendubose_test
+http://cgitest.auctionsoftwaremarketplace.com/warrendubose.cgi
+ 
+Codysef
+
+http://auctionsoftwaremarketplace.com:7081/
+https://git.assembla.com/tee-exchange.codey.git
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/codey_test
+http://cgitest.auctionsoftwaremarketplace.com/codey.cgi   
+
+Carbids :
+
+https://www.assembla.com/spaces/dagan/ftp_tool/carbids_test
+
+Slibuy :
+
+https://www.assembla.com/spaces/dagan/ftp_tool/Slibuy-Test
+
+Rubyonrailsdeveloper site :
+
+
+https://app.assembla.com/spaces/reefbids/ftp_tool/ror_developers
+
+http://rubyonrailsdeveloper.com/system/deployment/assets_precompile
+
+http://rubyonrailsdeveloper.com/system/deployment/server_restart  
+
+Nodejsdeveloper site:
+
+https://app.assembla.com/spaces/tee-exchange/ftp_tool/nodejsdeveloper
+https://nodejsdeveloper.com/system/deployment/server_restart
+https://nodejsdeveloper.com/system/deployment/assets_precompile
+
+Forward auction 2018
+
+http://54.218.167.206
+https://www.assembla.com/spaces/reefbids/ftp_tool/forward2018
+https://git.assembla.com/reefbids.forwardauction2018.git
+
+===========
+
+OLD :
+===========
+
+
+dealerbid :
+
+https://subversion.assembla.com/svn/dagan.dealerbid/
+
+forward auction :
+
+https://subversion.assembla.com/svn/dagan.forwardnodejs/
+
+silent auction :
+
+https://subversion.assembla.com/svn/dagan.silentauction/
+
+reverse auction : 
+
+https://subversion.assembla.com/svn/dagan.reverseauction/trunk
+
+penny auction :
+
+https://subversion.assembla.com/svn/dagan.pennyauction/
+
+Live bids :
+
+https://subversion.assembla.com/svn/tee-exchange.livebids/
+
+Brother auto :
+
+https://subversion.assembla.com/svn/dagan.38/trunk
+
+Bid Southern :
+
+https://subversion.assembla.com/svn/tee-exchange.bidsouthern/trunk
+
+Nurbs :
+
+https://subversion.assembla.com/svn/tee-exchange.nurbs/
+
+Carandbike :
+
+Git : git@git.assembla.com:tigertradesourcing.carbike.git
+FTP : https://www.assembla.com/spaces/tigertradesourcing/ftp_tool/CarBike
+URL: https://auctionsoftwaremarketplace.com:7777/
+Cgi- Script : https://74.86.126.4/~shopifyclone/cgi-bin/carbike.cgi
+
+
+
+Luxury Trading :
+
+https://subversion.assembla.com/svn/tee-exchange.25/
+
+DebtCleanse :
+
+git@git.assembla.com:tigertradesourcing.DebtCleanseTest.git
+
+Property Auction :
+
+https://subversion.assembla.com/svn/tigertradesourcing.NDTV_Housebolo/
+
+
+
+
+
+
+
+
+
+https://www.screencast.com/t/sX0VMiIsPq
+
+https://www.screencast.com/t/GaeRePu47j53
+
+https://www.screencast.com/t/89rTSCmBpHcN
+
+https://www.screencast.com/t/rtM0EeooxnGo
+
+https://www.screencast.com/t/ZKxn3PkYybpt
+
+
+
+
+
+https://auctionsoftwaremarketplace.com:3007/liveAuction/5a0eae449c74060c54dd7ce8/5a0bd62ffd82e36e2c04927
+
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 yam3">
+ <div class="bidhistory"> <div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div><div class="col-md-2 col-sm-4 col-xs-6 pop1lg testval1 cird8 unbid_person_room_319"> <div class="cird5 cird6"><div class="circle-text"><div class="cird1">Celladurai</div><div class="cird2">€0</div></div></div><div class="cird7"><img src="http://auctionsoftwaremarketplace.com:7030/uploads/no_img.png" class="img-responsive latestone"></div></div></div>
+ </div>
+
+
+
+
+
+
+
+
+
+

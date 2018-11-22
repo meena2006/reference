@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+<style type="text/css">
+	.new-progressBar {
+		width: 90%;
+		margin: 10px auto;
+		height: 5px;
+		background-color: #eee;
+	}
+	
+	.new-progressBar .barclr {
+		height: 100%;
+		text-align: right;
+		padding: 0 10px;
+		line-height: 5px;
+		width: 0;
+		background-color: #ccc;
+		box-sizing: border-box;
+	}
+	
+	.changeclr1 .barclr {
+		background-color: #4524a0;
+	}
+	
+	.changeclr2 .barclr {
+		background-color: #fcbf01;
+	}
+	
+	.changeclr3 .barclr {
+		background-color: #ce0061;
+	}
+	
+	.bar-text {
+		text-align: center;
+		text-transform: uppercase;
+		padding: 5px;
+	}
+	
+	.changeclr1 .bar-text {
+		color: #4524a0;
+	}
+	
+	.changeclr2 .bar-text {
+		color: #fcbf01;
+	}
+	
+	.changeclr3 .bar-text {
+		color: #ce0061;
+	}
+</style>
+
+<body>
+	<div id="new-progressBar" class="new-progressBar changeclr1">
+		<div class="barclr"></div>
+		<div class="bar-text">ACCEPTING BIDS</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		function progress(timeleft, timetotal, $element) {
+			var progressBarWidth = timeleft * $element.width() / timetotal;
+			$element.find('.barclr').animate({
+				width: progressBarWidth
+			}, timeleft == timetotal ? 0 : 1000, 'linear').html();
+			if (timeleft > 0) {
+				setTimeout(function () {
+					progress(timeleft - 1, timetotal, $element);
+				}, 1000);
+			}
+			else progress(20, 20, $('#new-progressBar'));
+		};
+		progress(20, 20, $('#new-progressBar'));
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+.orgtxt, .topthr4, .topthr1 span, .w_logo span, .home-prod-price, .cus19 a, .reg1 span, .frgtp a  {
+    color: #f25d23;
+}
+ 
+.lets { 
+    border: 1px solid #e65a1d; 
+}
+.sign_up,
+.sign_up:hover,
+.sign_up:focus { 
+    background: #e65a1d;
+    border-color: #e65a1d;
+} 
+.bidbtn,
+.bidbtn:focus,
+.bidbtn:hover {
+    background: #e65a1d;
+    border-color: #e65a1d;
+} 
+  
+.reg4, .reg4:hover {
+    background: #f25d23;
+    border: 1px solid #f25d23; 
+}
+
+.theme2 .navigation22 li:hover,
+.theme2 .navigation22 li.active { 
+    background-color: #f36921;
+}
+.theme2 .navigation22 li:hover a,
+.theme2 .navigation22 li.active a, .theme2 .featurestory-tab.featurestory-tab-bg-change { 
+    background: #f36921;
+}
+ 

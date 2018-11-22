@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>DIY</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/clr1.css"> </head>
+
+<body>
+    <div class="container-fluid padlr main-wrap">
+        <div class="container-fluid padlr dlytop-nav">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Nav tabs -->
+                    <div class="card">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#Content" aria-controls="Content" role="tab" data-toggle="tab"><i class="fa fa-align-left"></i> Content</a></li>
+                            <li role="presentation"><a href="#Design" aria-controls="Design" role="tab" data-toggle="tab"><i class="fa fa-magic"></i> Design</a></li>
+                            <li role="presentation"><a href="#Preview" aria-controls="Preview" role="tab" data-toggle="tab"><i class="fa fa-play"></i> Preview</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content container">
+                            <div role="tabpanel" class="tab-pane active Content-wrap" id="Content">
+                                <div class="col-sm-9">
+                                   
+                                    <div class="dragable-bar">
+                                        <div class="drag-txt"> Drag a field from the right to this area</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 elements-fixed">
+                                    <div class="dragable-elements">
+                                        <ul>
+                                            <li> <i class="fa fa-header"></i> Heading </li>
+                                            <li> <i class="fa fa-font"></i> Text Field </li>
+                                            <li> <i class="fa fa-align-justify"></i> Text Area </li>
+                                            <li> <i class="fa fa-tasks"></i> Select </li>
+                                            <li> <i class="fa fa-phone"></i> Number </li>
+                                            <li> <i class="fa fa-paragraph"></i> Paragraph </li>
+                                            <li> <i class="fa fa-check-square"></i> Checkbox Group </li>
+                                            <li> <i class="fa fa-dot-circle-o"></i> Radio Group </li>
+                                            <li> <i class="fa fa-calendar"></i> Date Field</li>
+                                            <li> <i class="fa fa-upload"></i> File Upload </li>
+                                            <li><i class="fa fa-minus"></i> label </li>
+                                            <li> <i class="fa fa-link"></i> Text with link </li>
+                                            <li><i class="fa fa-stop"></i> Button </li>
+                                            <li class="fb-separator">
+                                                <hr> </li>
+                                            <li><i class="fa fa fa-share-alt"></i> Social Media</li>
+                                            <li><i class="fa fa-user"></i> User Agreement</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-save">Save</button>
+                                        <button class="btn btn-cancel">Clear</button>
+                                    </div>
+                                </div>
+                                <div class="content-fixed">
+                                    <ul>
+                                        <li><a href="#" class="active"> Login </a></li>
+                                        <li><a href="#"> Registration </a></li>
+                                        <li><a href="#"> Add new product</a> </li>
+                                        <li><a href="#"> Search </a></li>
+                                        <li><a href="#"> Product Details </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="Design">
+                                <div class="btn-pos">
+                                    <button class="btn btn-save">Save</button>
+                                    <button class="btn btn-cancel">Clear</button>
+                                </div>
+                                <div class="container login clearfix">
+                                    <h3 class=" ">Sign in to Your Account</h3>
+                                    <form class="new_user">
+                                        <div class="row">
+                                            <div class="col-md-12 pdlr0 ">
+                                                <input class="form-control" placeholder="Enter your email" type="text" value=""> </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pdlr0">
+                                                <input class="form-control" placeholder="Enter your password" type="password"> </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-7 col-md-6 pdlr0">
+                                                <input class="btn btn-warning bget_started" type="button" value="Get Started"> </div>
+                                            <div class="col-xs-5 col-md-6 pdlr0 text-right">
+                                                <div class="checkbox">
+                                                    <input id="remember_me" type="checkbox">
+                                                    <label for="remember_me">Remember me</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-xs-5 pdlr0"> <a href=" ">Forgot Password ?</a>
+                                                <br> </div>
+                                            <div class="col-md-7 col-xs-7 pdlr0 text-right"> Don't have an account? <a href=" ">click here</a> </div>
+                                        </div>
+                                    </form>
+                                    <div class="seperator"></div> <span class="pull-right">Login with &nbsp;&nbsp;
+				<a ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a  ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+			</span> </div>
+                                <!-- color change -->
+                                <div class="toggler hidden-xs in">
+                                    <div class="toggler-tab-wrapper">
+                                        <div class="toggler-tab ng-scope">
+                                            <div class="list-group">
+                                                <div class="list-group-item" onclick="openNav()">
+                                                    <figure class="design-item design-item-color"> </figure>
+                                                </div>
+                                                <div class="list-group-item">
+                                                    <figure class="design-item design-item-font">Abc</figure>
+                                                </div>
+                                                <div class="list-group-item">
+                                                    <figure class="design-item design-item-font">Logo</figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="mySidenav" class="sidenav sidenavnew"> <a href="javascript:void(0)" class="closebtn menu-item" onclick="closeNav()"><i class="fa fa-angle-left"></i> Back</a>
+                                    <div class="clrbox clr1 clicked"></div>
+                                    <div class="clrbox clr2"></div>
+                                    <div class="clrbox clr3"></div>
+                                    <div class="clrbox clr4"></div>
+                                    <div class="clrbox clr5"></div>
+                                    <div class="clrbox clr6"></div>
+                                    <div class="clrbox clr7"></div>
+                                    <div class="clrbox clr8"></div>
+                                    <div class="clrbox clr9"></div>
+                                    <div class="clrbox clr10"></div>
+                                    <div class="clrbox clr11"></div>
+                                    <div class="clrbox clr12"></div>
+                                    <div class="clrbox clr13"></div>
+                                    <div class="clrbox clr14"></div>
+                                    <div class="clrbox clr15"></div>
+                                    <div class="clrbox clr16"></div>
+                                </div>
+                                <!-- color change -->
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="Preview">
+                                <div class="container login clearfix">
+                                    <h3 class=" ">Sign in to Your Account</h3>
+                                    <form class="new_user">
+                                        <div class="row">
+                                            <div class="col-md-12 pdlr0 ">
+                                                <input class="form-control" placeholder="Enter your email" type="text" value=""> </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pdlr0">
+                                                <input class="form-control" placeholder="Enter your password" type="password"> </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-7 col-md-6 pdlr0">
+                                                <input class="btn btn-warning bget_started" type="button" value="Get Started"> </div>
+                                            <div class="col-xs-5 col-md-6 pdlr0 text-right">
+                                                <div class="checkbox">
+                                                    <input id="remember_me" type="checkbox">
+                                                    <label for="remember_me">Remember me</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-xs-5 pdlr0"> <a href=" ">Forgot Password ?</a>
+                                                <br> </div>
+                                            <div class="col-md-7 col-xs-7 pdlr0 text-right"> Don't have an account? <a href=" ">click here</a> </div>
+                                        </div>
+                                    </form>
+                                    <div class="seperator"></div> <span class="pull-right">Login with &nbsp;&nbsp;
+				<a ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a  ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+			</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+   
+</body>
+
+</html>

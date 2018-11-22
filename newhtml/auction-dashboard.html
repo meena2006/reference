@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DuaVivo - Auction Listing</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:title" content=" " />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="images/favicon.ico" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="canonical" href=" " />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/jquery.fancybox.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/main-style.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/responsive.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/easy-responsive-tabs.css"> </head>
+
+<body class="home">
+    <header class="header-bg">
+        <nav class="maxwidth sticky"> <a class="currency_menu" data-toggle="dropdown">₹</a>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <form method="POST" action=" ">
+                        <select name="currency_code" class="selectpicker">
+                            <option value="USD">USD ($)</option>
+                            <option value="CAD">CAD ($)</option>
+                            <option value="EUR">EUR (€)</option>
+                            <option value="AED">AED (د.إ.‏)</option>
+                            <option value="AFN">AFN (؋)</option>
+                            <option value="ALL">ALL (Lek)</option>
+                            <option value="AMD">AMD (դր.)</option>
+                            <option value="ARS">ARS ($)</option>
+                            <option value="AUD">AUD ($)</option>
+                            <option value="AZN">AZN (ман.)</option>
+                            <option value="BAM">BAM (KM)</option>
+                            <option value="BDT">BDT (৳)</option>
+                            <option value="BGN">BGN (лв.)</option>
+                            <option value="BHD">BHD (د.ب.‏)</option>
+                            <option value="BIF">BIF (FBu)</option>
+                            <option value="BND">BND ($)</option>
+                            <option value="BOB">BOB (Bs)</option>
+                            <option value="BRL">BRL (R$)</option>
+                            <option value="BWP">BWP (P)</option>
+                            <option value="BYR">BYR (BYR)</option>
+                            <option value="BZD">BZD ($)</option>
+                            <option value="CDF">CDF (FrCD)</option>
+                            <option value="CHF">CHF (CHF)</option>
+                            <option value="CLP">CLP ($)</option>
+                            <option value="CNY">CNY (CN¥)</option>
+                            <option value="COP">COP ($)</option>
+                            <option value="CRC">CRC (₡)</option>
+                            <option value="CVE">CVE (CV$)</option>
+                            <option value="CZK">CZK (Kč)</option>
+                            <option value="DJF">DJF (Fdj)</option>
+                            <option value="DKK">DKK (kr)</option>
+                            <option value="DOP">DOP (RD$)</option>
+                            <option value="DZD">DZD (د.ج.‏)</option>
+                            <option value="EEK">EEK (kr)</option>
+                            <option value="EGP">EGP (ج.م.‏)</option>
+                            <option value="ERN">ERN (Nfk)</option>
+                            <option value="ETB">ETB (Br)</option>
+                            <option value="GBP">GBP (£)</option>
+                            <option value="GEL">GEL (GEL)</option>
+                            <option value="GHS">GHS (GH₵)</option>
+                            <option value="GNF">GNF (FG)</option>
+                            <option value="GTQ">GTQ (Q)</option>
+                            <option value="HKD">HKD ($)</option>
+                            <option value="HNL">HNL (L)</option>
+                            <option value="HRK">HRK (kn)</option>
+                            <option value="HUF">HUF (Ft)</option>
+                            <option value="IDR">IDR (Rp)</option>
+                            <option value="ILS">ILS (₪)</option>
+                            <option value="INR" selected>INR (₹)</option>
+                            <option value="IQD">IQD (د.ع.‏)</option>
+                            <option value="IRR">IRR (﷼)</option>
+                            <option value="ISK">ISK (kr)</option>
+                            <option value="JMD">JMD ($)</option>
+                            <option value="JOD">JOD (د.أ.‏)</option>
+                            <option value="JPY">JPY (￥)</option>
+                            <option value="KES">KES (Ksh)</option>
+                            <option value="KHR">KHR (៛)</option>
+                            <option value="KMF">KMF (FC)</option>
+                            <option value="KRW">KRW (₩)</option>
+                            <option value="KWD">KWD (د.ك.‏)</option>
+                            <option value="KZT">KZT (тңг.)</option>
+                            <option value="LBP">LBP (ل.ل.‏)</option>
+                            <option value="LKR">LKR (SL Re)</option>
+                            <option value="LTL">LTL (Lt)</option>
+                            <option value="LVL">LVL (Ls)</option>
+                            <option value="LYD">LYD (د.ل.‏)</option>
+                            <option value="MAD">MAD (د.م.‏)</option>
+                            <option value="MDL">MDL (MDL)</option>
+                            <option value="MGA">MGA (MGA)</option>
+                            <option value="MKD">MKD (MKD)</option>
+                            <option value="MMK">MMK (K)</option>
+                            <option value="MOP">MOP (MOP$)</option>
+                            <option value="MUR">MUR (MURs)</option>
+                            <option value="MXN">MXN ($)</option>
+                            <option value="MYR">MYR (RM)</option>
+                            <option value="MZN">MZN (MTn)</option>
+                            <option value="NAD">NAD (N$)</option>
+                            <option value="NGN">NGN (₦)</option>
+                            <option value="NIO">NIO (C$)</option>
+                            <option value="NOK">NOK (kr)</option>
+                            <option value="NPR">NPR (नेरू)</option>
+                            <option value="NZD">NZD ($)</option>
+                            <option value="OMR">OMR (ر.ع.‏)</option>
+                            <option value="PAB">PAB (B/.)</option>
+                            <option value="PEN">PEN (S/.)</option>
+                            <option value="PHP">PHP (₱)</option>
+                            <option value="PKR">PKR (₨)</option>
+                            <option value="PLN">PLN (zł)</option>
+                            <option value="PYG">PYG (₲)</option>
+                            <option value="QAR">QAR (ر.ق.‏)</option>
+                            <option value="RON">RON (RON)</option>
+                            <option value="RSD">RSD (дин.)</option>
+                            <option value="RUB">RUB (руб.)</option>
+                            <option value="RWF">RWF (FR)</option>
+                            <option value="SAR">SAR (ر.س.‏)</option>
+                            <option value="SDG">SDG (SDG)</option>
+                            <option value="SEK">SEK (kr)</option>
+                            <option value="SGD">SGD ($)</option>
+                            <option value="SOS">SOS (Ssh)</option>
+                            <option value="SYP">SYP (ل.س.‏)</option>
+                            <option value="THB">THB (฿)</option>
+                            <option value="TND">TND (د.ت.‏)</option>
+                            <option value="TOP">TOP (T$)</option>
+                            <option value="TRY">TRY (TL)</option>
+                            <option value="TTD">TTD ($)</option>
+                            <option value="TWD">TWD (NT$)</option>
+                            <option value="TZS">TZS (TSh)</option>
+                            <option value="UAH">UAH (₴)</option>
+                            <option value="UGX">UGX (USh)</option>
+                            <option value="UYU">UYU ($)</option>
+                            <option value="UZS">UZS (UZS)</option>
+                            <option value="VEF">VEF (Bs.F.)</option>
+                            <option value="VND">VND (₫)</option>
+                            <option value="XAF">XAF (FCFA)</option>
+                            <option value="XOF">XOF (CFA)</option>
+                            <option value="YER">YER (ر.ي.‏)</option>
+                            <option value="ZAR">ZAR (R)</option>
+                            <option value="ZMK">ZMK (ZK)</option>
+                        </select>
+                    </form>
+                </li>
+            </ul>
+            <a onclick="openNav()"><img src="images/menu.png" class="menu" alt="Menu"></a>
+            <a href="#"><img src="images/logo.png" alt="Logo"></a>
+            <div class="pull-right">
+                <p class="contact-us"><img src="images/call-header.png"> + 91 7676 10 4444</p>
+                <p class="contact-us"><img src="images/whatsapp.png"> + 91 9108 02 5667</p>
+                <a href="#" class="hot-deal"><img src="images/hot-deals-icon.png"></a>
+                <a href="#" class="call-icon-header"><img src="images/phone-call.png"></a> <img src="images/search.png" class="search-icon" data-toggle="modal" data-target="#Searchpop"> <img src="images/wish.png" title="Add To Wishlist" alt="Wishlist"> <span class="nav-quantity">0</span> <img src="images/cart.png" title="Add To Cart" alt="Cart"> <span class="nav-quantity">0</span>
+                <div class="signin-drop" data-toggle="modal" data-target="#Signin"> <img src="images/user.png" class="user-icon" alt="User"> <span class="nav-username">Sign In</span> </div>
+            </div>
+        </nav>
+        <div class="modal" id="Searchpop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="nav-search">
+                            <form method="POST" action=" " id="searchprod">
+                                <input type="text" placeholder="Looking for something specific?" name="search">
+                                <input type="submit" class="go-search" value="" /> </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="Forgotpwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog Forgotpwd" role="document">
+                <div class="modal-content">
+                    <a data-dismiss="modal" aria-label="Close" class="sign-up-close-btn"><img src="images/close-popup.png"></a>
+                    <div class="modal-body">
+                        <div class="login-request-popup">
+                            <div class="request-call-back-hold">
+                                <div class="wish-head">FORGOT PASSWORD?</div>
+                                <div class="border-bottom width40"></div>
+                                <div class="lost-password-content">
+                                    <div class="col-md-12 col-xs-12">
+                                        <form method="POST">
+                                            <div class="clearfix"></div>
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <label for="">EMAIL</label>
+                                            </div>
+                                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                                <input type="email" name="email" required> </div>
+                                            <p>Reset Password link will be sent to email.</p>
+                                            <div class="clearfix"></div>
+                                            <div class="clearfix"></div>
+                                            <div class="col-md-12 col-xs-12 ">
+                                                <input type="submit" value="SUBMIT" class="forgot-email pull-right"> </div>
+                                            <div class="clearfix"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="modal" id="Signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content lgn-wrap"><a href="" class="sign-up-close-btn">X</a>
+                    <div class="modal-body">
+                        <div class="navlogin">
+                            <div class="login-head">LOGIN INTO YOUR ACCOUNT</div>
+                            <div class="border-bottom width40"></div>
+                            <div class="login-content">
+                                <div class="col-md-12 col-sm-12 col-xs-12 login-wrap">
+                                    <form method="POST" action=" ">
+                                        <div class="input">
+                                            <input type="email" name="email" placeholder="EMAIL" required> </div>
+                                        <div class="input">
+                                            <input type="password" name="password" placeholder="PASSWORD" required> </div>
+                                        <input type="submit" value="LOGIN" class="submit-login"> </form> <a data-toggle="modal" data-target="#Forgotpwd"><span class="lost-password">FORGOT PASSWORD?</span></a> </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 social-login"> 
+                                    <span>LOGIN WITH</span>
+                                    <a href="#"><img src="images/fb-login.jpg" alt="Facebook"></a>
+                                    <a href="#"><img src="images/gplus-login.jpg" alt="Gplus"></a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="signup"> <span>NEW TO DUAVIVO?</span>
+                                    <input type="submit" value="SIGN UP" class="signup-wrap-btn"> </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="modal-content signup-wrap"><a href="" class="sign-up-close-btn">X</a>
+                    <div class="signupform">
+                        <div class="login-head">SIGN UP</div>
+                        <div class="border-bottom width40"></div>
+                        <div class="login-content">
+                            <form method="POST" action=" " id="register" class="registration-form">
+                                <div class="col-md-6 col-sm-6 col-xs-12 signup-height-100">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name"> </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 signup-height-100">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email"> </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 signup-height-100">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password"> </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 signup-height-100">
+                                    <label for="">Confirm Password</label>
+                                    <input type="password" name="confirmpassword"> </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 signup-height-100">
+                                    <label for="mobile">Mobile</label>
+                                    <input type="text" name="mobile"> </div>
+                                <div class="clearfix"></div>
+                                <div class="col-md-12"> <em class="tandc-text">By clicking CONTINUE you accept to our <a href="#" target="_blank">terms & conditions</a>.</em> </div>
+                                <div class="signup sm-button">
+                                    <input type="submit" value="CONTINUE" id="signup-continue"> </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu" id="mySidenav">
+            <div class="main-close"><img src="images/close-menu.png" alt="Close"></div>
+            <div class="menu-hold">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>ABOUT</h3>
+                    <ul class="about-link">
+                        <li><a href="#">STORY</a></li>
+                        <li><a href="#">TEAM</a></li>
+                        <li><a href="#">WHY DUAVIVO</a></li>
+                        <li><a href="#">OUR STORES</a></li>
+                        <li><a href="#">NEWS & PRESS </a></li>
+                        <li><a href="#" target="_blank">BLOG </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>BUY</h3>
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel1"><i class="glyphicon glyphicon-plus"></i>ACCESSORIES</a></h4></div>
+                            <div id="panel1" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="#">BELTS</a></li>
+                                    <li><a href="#">CHARMS AND KEYCHAINS</a></li>
+                                    <li><a href="#">KEY AND CARD HOLDERS</a></li>
+                                    <li><a href="#">NECKPIECE</a></li>
+                                    <li><a href="#">PENS</a></li>
+                                    <li><a href="#">PHONE COVER</a></li>
+                                    <li><a href="#">WALLET</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel2"><i class="glyphicon glyphicon-plus"></i>BAGS</a></h4></div>
+                            <div id="panel2" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="#">BOWLER BAG</a></li>
+                                    <li><a href="#">BRIEFCASE</a></li>
+                                    <li><a href="#">BUCKET</a></li>
+                                    <li><a href="#">CLUTCH</a></li>
+                                    <li><a href="#">CROSS BODY</a></li>
+                                    <li><a href="#">DUFFLE</a></li>
+                                    <li><a href="#">HANDBAG</a></li>
+                                    <li><a href="#">HOBO</a></li>
+                                    <li><a href="#">MESSENGER</a></li>
+                                    <li><a href="#">SATCHEL</a></li>
+                                    <li><a href="#">SHOULDER BAG</a></li>
+                                    <li><a href="#">SLING BAG</a></li>
+                                    <li><a href="#">TOTE</a></li>
+                                    <li><a href="#">TRAVEL BAG</a></li>
+                                    <li><a href="#">TRUNK</a></li>
+                                    <li><a href="#">WRISTLET</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel3"><i class="glyphicon glyphicon-plus"></i>CLOTHING</a></h4></div>
+                            <div id="panel3" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="#">COATS</a></li>
+                                    <li><a href="#">DRESSES</a></li>
+                                    <li><a href="#">JUMPSUITS</a></li>
+                                    <li><a href="#">PANTS</a></li>
+                                    <li><a href="#">SCARF</a></li>
+                                    <li><a href="#">SKIRTS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel4"><i class="glyphicon glyphicon-plus"></i>EYEWEAR</a></h4></div>
+                            <div id="panel4" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="#">SUNGLASSES</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel5"><i class="glyphicon glyphicon-plus"></i>SHOES</a></h4></div>
+                            <div id="panel5" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="#">CASUAL</a></li>
+                                    <li><a href="#">FLATS</a></li>
+                                    <li><a href="#">FORMAL SHOES</a></li>
+                                    <li><a href="#">HEELS</a></li>
+                                    <li><a href="#">PUMPS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel6"><i class="glyphicon glyphicon-plus"></i>WATCHES</a></h4></div>
+                            <div id="panel6" class="panel-collapse collapse">
+                                <ul>
+                                    <li><a href="#">ALL</a></li>
+                                    <li><a href="cat/analog.html">ANALOG</a></li>
+                                    <li><a href="#">MULTIFUNCTION</a></li>
+                                    <li><a href="#">SMARTWATCH</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>SELL</h3>
+                    <ul>
+                        <li><a href="#">SELLER FAQ's</a></li>
+                        <li><a href="#" class=" main-close sell-product-inline">SELL YOUR PRODUCT</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h3>HELP</h3>
+                    <ul>
+                        <li><a href="#">HOW THIS WORKS</a></li>
+                        <li><a href="#">BECOME A MEMBER</a></li>
+                        <li><a href="#">INSTRUCTIONS ON PHOTOGRAPHY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+    <section class="breadcrum padtop60">
+        <div class="maxwidth">
+            <div class="breadcrum-hold pull-left"> <a href="#">HOME /</a> <span>AUCTION DASHBOARD</span> </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="category auction-dash">
+        <div class="category-content maxwidth">
+            <div class="category-head">AUCTION DASHBOARD</div>
+            <div class="border-bottom width100"></div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="parentHorizontalTab" class="accord-product">
+                    <ul class="resp-tabs-list hor_1">
+                        <li>Active Bids</li>
+                        <li>Bids Won</li>
+                        <li>Bids Lost</li>
+                    </ul>
+                    <div class="resp-tabs-container hor_1">
+                        <div>
+                            <div class="category-products">
+                                <div class="view-product">
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/1.jpg"> </a>
+                                        </div> <img src="images/hot-deals.png" alt="Hot Deals" class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Jimmy Choo Hobo Bag (Was Rs. 38000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="clock">
+                                                        <p> <span class="daysLeft">05</span> Days </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="hours">06</span> Hours </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="minutes">10</span> Minutes </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="seconds">03</span> Seconds </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center padlr crt_bid"> Current Bid : ₹ 31600 </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> <img src="images/wish-big.png" alt="Wish" class="product-wish" title="Add To Wishlist">
+                                            <a class="quick-view" rel="group2" href="images/original/1b-1.jpg"> <img src="images/view-big.png" alt="View" title="Quick View" class="pull-right"> </a>
+                                            <a class="quick-view" rel="group2" href="images/original/1b-2.jpg"> </a>
+                                            <a class="quick-view" rel="group2" href="images/original/1b-3.jpg"> </a>
+                                            <input type="button" value="ADD TO CART" class="product-add">
+                                            <a href="product-view.html">
+                                                <p class="product-add">BID NOW</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/2.jpg"> </a>
+                                        </div> <img src="images/hot-deals.png" alt="Hot Deals" class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Kate spade Handbag (Was Rs. 9300)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="clock">
+                                                        <p> <span class="daysLeft">05</span> Days </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="hours">06</span> Hours </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="minutes">10</span> Minutes </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="seconds">03</span> Seconds </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center padlr crt_bid"> Current Bid : ₹ 7800 </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> <img src="images/wish-big.png" alt="Wish" class="product-wish " title="Add To Wishlist">
+                                            <a class="quick-view" rel="group3" href="images/original/2b-1.jpg"> <img src="images/view-big.png" alt="View" title="Quick View" class="pull-right"> </a>
+                                            <a class="quick-view" rel="group3" href="images/original/2b-2.png"> </a>
+                                            <input type="button" value="ADD TO CART" class="product-add">
+                                            <a href="product-view.html">
+                                                <p class="product-add">BID NOW</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/3.jpg"> </a>
+                                        </div> <img src="images/hot-deals.png" alt="Hot Deals" class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Dolce & Gabbana Pumps Size 37 (Was Rs.25000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="clock">
+                                                        <p> <span class="daysLeft">05</span> Days </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="hours">06</span> Hours </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="minutes">10</span> Minutes </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="seconds">03</span> Seconds </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center padlr crt_bid"> Current Bid : ₹ 18600 </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> <img src="images/wish-big.png" alt="Wish" class="product-wish" title="Add To Wishlist">
+                                            <a class="quick-view" rel="group4" href="images/original/3b-1.jpg"> <img src="images/view-big.png" alt="View" title="Quick View" class="pull-right"> </a>
+                                            <a class="quick-view" rel="group4" href="images/original/3b-2.jpg"> </a>
+                                            <a class="quick-view" rel="group4" href="images/original/3b-3.jpg"> </a>
+                                            <input type="button" value="ADD TO CART" class="product-add">
+                                            <a href="product-view.html">
+                                                <p class="product-add">BID NOW</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/4.jpg"> </a>
+                                        </div> <img src="images/hot-deals.png" alt="Hot Deals" class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Fendi Handbag</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="clock">
+                                                        <p> <span class="daysLeft">05</span> Days </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="hours">06</span> Hours </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="minutes">10</span> Minutes </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="seconds">03</span> Seconds </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center padlr crt_bid"> Current Bid : ₹ 22000 </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> <img src="images/wish-big.png" alt="Wish" class="product-wish" title="Add To Wishlist">
+                                            <a class="quick-view" rel="group5" href="images/original/4b-1.jpg"> <img src="images/view-big.png" alt="View" title="Quick View" class="pull-right"> </a>
+                                            <a class="quick-view" rel="group5" href="images/original/4b-2.jpg"> </a>
+                                            <a class="quick-view" rel="group5" href="images/original/4b-3.jpg"> </a>
+                                            <input type="button" value="ADD TO CART" class="product-add">
+                                            <a href="product-view.html">
+                                                <p class="product-add">BID NOW</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/1.jpg"> </a>
+                                        </div> <img src="images/hot-deals.png" alt="Hot Deals" class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Jimmy Choo Hobo Bag (Was Rs. 38000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="clock">
+                                                        <p> <span class="daysLeft">05</span> Days </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="hours">06</span> Hours </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="minutes">10</span> Minutes </p>
+                                                        <div class="space"> </div>
+                                                        <p> <span class="seconds">03</span> Seconds </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center padlr crt_bid"> Current Bid : ₹ 31600 </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> <img src="images/wish-big.png" alt="Wish" class="product-wish" title="Add To Wishlist">
+                                            <a class="quick-view" rel="group2" href="images/original/1b-1.jpg"> <img src="images/view-big.png" alt="View" title="Quick View" class="pull-right"> </a>
+                                            <a class="quick-view" rel="group2" href="images/original/1b-2.jpg"> </a>
+                                            <a class="quick-view" rel="group2" href="images/original/1b-3.jpg"> </a>
+                                            <input type="button" value="ADD TO CART" class="product-add">
+                                            <a href="product-view.html">
+                                                <p class="product-add">BID NOW</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="view-more" id="view-more"> <span>
+              <a href="#"  class="load_more"  >+ View more</a>
+            </span>
+                                    <div class="border-view-more"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="category-products">
+                                <div class="view-product">
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/3.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Dolce & Gabbana Pumps Size 37 (Was Rs.25000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="won-date"> <b>Won Date:</b> January 26th,2017 </div>
+                                                    <div class="bid-amt"> <b>Your Bid:</b> ₹ 26000 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover">
+                                            <a href="#">
+                                                <p class="product-add">VIEW INVOICE</p>
+                                            </a>
+                                            <a href="#">
+                                                <p class="product-add">FUND RELEASED </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/1.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Jimmy Choo Hobo Bag (Was Rs. 38000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="won-date"> <b>Won Date:</b> January 26th,2017 </div>
+                                                    <div class="bid-amt"> <b>Your Bid:</b> ₹ 39000 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover">
+                                            <a href="#">
+                                                <p class="product-add">VIEW INVOICE</p>
+                                            </a>
+                                            <a href="#">
+                                                <p class="product-add">FUND RELEASED </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/2.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Kate spade Handbag (Was Rs. 9300)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="won-date"> <b>Won Date:</b> January 26th,2017 </div>
+                                                    <div class="bid-amt"> <b>Your Bid:</b> ₹ 9400 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover">
+                                            <a href="#">
+                                                <p class="product-add">VIEW INVOICE</p>
+                                            </a>
+                                            <a href="#">
+                                                <p class="product-add">FUND RELEASED </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="view-more" id="view-more"> <span>
+              <a href="#"  class="load_more"  >+ View more</a>
+            </span>
+                                    <div class="border-view-more"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="category-products">
+                                <div class="view-product">
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/2.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Kate spade Handbag (Was Rs. 9300)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="closed-bid"> <b>CLOSED</b> </div>
+                                                    <div class="bid-amt"> <b>Highest Bid:</b> ₹ 9400 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/1.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Jimmy Choo Hobo Bag (Was Rs. 38000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="closed-bid"> <b>CLOSED</b> </div>
+                                                    <div class="bid-amt"> <b>Highest Bid:</b> ₹ 39000 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12 products">
+                                        <div class="product-img-hold"> <span class="vcenter"></span>
+                                            <a> <img class="product-img" src="images/small/3.jpg"> </a>
+                                        </div> <img src="images/sold.png" alt=" " class="new">
+                                        <div class="product-content">
+                                            <p class="product-name">Dolce & Gabbana Pumps Size 37 (Was Rs.25000)</p>
+                                            <div class="bid_bpt bid_nowb">
+                                                <div class="col-md-12 text-center padlr padboth5">
+                                                    <div class="closed-bid"> <b>CLOSED</b> </div>
+                                                    <div class="bid-amt"> <b>Highest Bid:</b> ₹ 26000 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-hover"> </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="view-more" id="view-more"> <span>
+              <a href="#"  class="load_more"  >+ View more</a>
+            </span>
+                                    <div class="border-view-more"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <footer>
+        <div class="footer-content maxwidth">
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                <div class="col-md-6 col-sm-3 col-xs-12 padding0"> <img src="images/care.png" class="care" alt="We Care"> </div>
+                <div class="col-md-6 col-sm-9 col-xs-12 message"> <img src="images/message.png" alt="Message"> <a href="#">HELLO@DUAVIVO.IN</a> </div>
+                <div class="clearfix"></div>
+                <ul class="keep-touch">
+                    <li>
+                        <a href="#" target="_blank"> <img src="images/facebook.png" alt="Facebook"> </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"> <img src="images/twitter.png" alt="Twitter"> </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"> <img src="images/instagram.png" alt="Instagram"> </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"> <img src="images/pinterest.png" alt="Pintrest"> </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"> <img src="images/youtube.png" alt="Youtube"> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-7 col-sm-12 col-xs-12 quick-links padding0 pull-right">
+                <div class="col-md-2-5 col-sm-3 col-xs-6">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="#">STORY</a></li>
+                        <li><a href="#">TEAM</a></li>
+                        <li><a href="#">WHY DUAVIVO</a></li>
+                        <li><a href="#">OUR STORES</a></li>
+                        <li><a href="#">NEWS & PRESS </a></li>
+                        <li><a href="#" target="_blank">BLOG </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 padding0">
+                    <h3>BUY</h3>
+                    <ul>
+                        <li><a href="#">ACCESSORIES</a></li>
+                        <li><a href="#">BAGS</a></li>
+                        <li><a href="#">CLOTHING</a></li>
+                        <li><a href="#">EYEWEAR</a></li>
+                        <li><a href="#">SHOES</a></li>
+                        <li><a href="#">WATCHES</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2-5 col-sm-3 col-xs-6 padding0">
+                    <h3>SELL</h3>
+                    <ul>
+                        <li><a href="#">SELLER FAQ's</a></li>
+                        <li><a href="#" class=" ">SELL YOUR PRODUCT</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-3 col-xs-6">
+                    <h3>HELP</h3>
+                    <ul>
+                        <li><a href="#">HOW THIS WORKS</a></li>
+                        <li><a href="#">BECOME A MEMBER</a></li>
+                        <li><a href="#">INSTRUCTIONS ON PHOTOGRAPHY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">CANCELLATION OR RETURN & REFUND POLICY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer-copyright">
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <p>COPYRIGHT &copy; 2017 DuaVivo. ALL RIGHTS RESERVED</p>
+                    <ul class="footer-sitemap">
+                        <li><a href="#">SITEMAP</a></li>
+                        <li>|</li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li>|</li>
+                        <li><a href="#">TERMS &amp; CONDITIONS </a></li>
+                        <li>|</li>
+                        <li><a href="#">DISCLAIMER</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 subscribe-top padding0">
+                    <div class="subscribe">
+                        <p>SUBSCRIBE NEWSLETTER</p>
+                    </div>
+                    <div class="col-md-6 subscribe-wrap">
+                        <form method="post">
+                            <input type="text" placeholder="E-mail address" name="email" class="newsletter">
+                            <input type="submit" class="go-search" value="" /> </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/easyResponsiveTabs.min.js"></script>
+    <script>
+        $("a[rel=group2]").fancybox();
+        $("a[rel=group3]").fancybox();
+        $("a[rel=group4]").fancybox();
+        $("a[rel=group5]").fancybox();
+    </script>
+    <script type="text/javascript">
+    </script>
+    <script>
+        $(document).on('click', '.header-bg .dropdown-menu', function (e) {
+            e.stopPropagation();
+        });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+    </script>
+    <script>
+        $(".menu").click(function () {
+            $(".main-menu").show("slide", {
+                direction: "left"
+            }, 1e3)
+        }), $(".main-close").click(function () {
+            $(".main-menu").hide("slide", {
+                direction: "left"
+            }, 1e3)
+        });
+    </script>
+    <script>
+        $(function () {
+            $(".signup-wrap").hide();
+            $(".signup-wrap-btn").bind("click", function () {
+                $(".lgn-wrap").hide();
+                $(".signup-wrap").show();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#parentHorizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                tabidentify: 'hor_1', // The tab groups identifier
+                activate: function (event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#nested-tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

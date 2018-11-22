@@ -1,0 +1,71 @@
+.container.login {
+    max-width: 420px !important;
+    margin: 0px auto !important;
+    font-size: 11px !important;
+    margin-bottom: 50px !important; font-family: arial;
+}
+
+.container.login .form-control {  font-size: 14px; }
+
+.container.login h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 40px 0 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container.login .row {
+    margin: 10px 0;
+}
+
+.container.login .btn-warning {
+    color: #fff;
+    background-color: #fe5a01;
+    border-color: #fe5a01;
+}
+
+.container.login .bget_started {
+    width: 150px;
+    height: 38px;
+    -webkit-border-radius: 4px/5px 5px 6px 6px;
+    -moz-border-radius: 4px/5px 5px 6px 6px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.container.login .seperator {
+    height: 1px;
+    border-bottom: 2px solid #ddd;
+    margin: 20px auto;
+}
+
+.container.login .checkbox label,
+.container.login .radio label {
+    min-height: auto;
+    padding-top: 2px;
+}
+
+.container.login .checkbox input[type=checkbox],
+.container.login .checkbox-inline input[type=checkbox],
+.container.login .radio input[type=radio],
+.container.login .radio-inline input[type=radio] {
+    margin-left: 0;
+}
+
+.container.login a { color:#fe5a01; }
+
+.container.login .fa-facebook-square {
+    font-size: 38px;
+    color: #3b579d;
+}
+
+.container.login .fa-linkedin-square {
+    font-size: 38px;
+    color: #007bb6;
+}
+ 
+a:focus, button:focus{ outline: inherit; outline-offset: inherit; outline-width: inherit;}
+ 
+
+ 

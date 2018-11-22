@@ -1,0 +1,38 @@
+.orgtxt, .topthr4, .topthr1 span, .w_logo span, .home-prod-price, .cus19 a, .reg1 span, .frgtp a  {
+    color: #009fef;
+}
+ 
+.lets { 
+    border: 1px solid #009fef; 
+}
+.sign_up,
+.sign_up:hover,
+.sign_up:focus { 
+    background: #009fef;
+    border-color: #009fef;
+} 
+.bidbtn,
+.bidbtn:focus,
+.bidbtn:hover {
+    background: #009fef;
+    border-color: #009fef;
+} 
+  
+.reg4, .reg4:hover {
+    background: #009fef;
+    border: 1px solid #009fef; 
+}
+
+.theme2 .navigation22 li:hover,
+.theme2 .navigation22 li.active { 
+    background-color: #009fef;
+}
+.theme2 .navigation22 li:hover a,
+.theme2 .navigation22 li.active a, .theme2 .featurestory-tab.featurestory-tab-bg-change { 
+    background: #009fef;
+}
+.theme2 .featurestory-tab.featurestory-tab-bg-change {     border-bottom: 6px solid #036ca0; }
+ .input-group-addon:last-child, .input-group-addon:first-child{
+    background: #009fef; 
+}
+ 
