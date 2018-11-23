@@ -64,7 +64,7 @@ Here is a list of 3rd party directories:
 
 There are also handcrafted directories with rich samples:
 
-* http://hellohappy.org/beautiful-web-type/
+* [Beautiful Web Type](https://beautifulwebtype.com)
 * http://femmebot.github.io/google-type/
 * http://100daysoffonts.com
 * http://jxnblk.com/type-a/
